@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <div class="sidebar" data-color="danger" data-background-color="white" data-image="./assets/img/sidebar-1.jpg">
+    <page-sidebar></page-sidebar>
+    <div class="sidebar-background" style="background-image: url(./assets/img/sidebar-4.jpg)"></div>
+  </div>
+  <div class="main-panel">
+    <page-navbar></page-navbar>
+    <div class="main-content">
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+        <!--    <div *ngIf="isMaps('maps')">-->
+        <!--      <page-footer></page-footer>-->
+        <!--    </div>-->
+      </div>
+    </div>
+  </div>
+</div>

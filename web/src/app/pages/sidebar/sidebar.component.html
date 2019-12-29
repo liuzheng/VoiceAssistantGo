@@ -1,0 +1,19 @@
+<div class="logo">
+  <a href="/" class="simple-text">
+<!--    <div class="logo-img">-->
+<!--      <img src="/assets/img/leftbar-logo.png"/>-->
+<!--    </div>-->
+    VoiceAssistant
+  </a>
+</div>
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" *ngFor="let menuItem of menuItems"
+        class="{{menuItem.class}} nav-item">
+      <a class="nav-link" [routerLink]="[menuItem.path]">
+        <mat-icon class="material-icons" svgIcon="{{menuItem.icon}}"></mat-icon>
+        <p class="sidebar-title">{{ menuItem.title | translate }}</p>
+      </a>
+    </li>
+  </ul>
+</div>

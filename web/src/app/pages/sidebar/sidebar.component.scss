@@ -1,0 +1,27 @@
+.sidebar .nav mat-icon {
+  //font-size: 13px!important;
+  float: left;
+  margin-right: 15px;
+  line-height: 7px;
+  width: 30px;
+  text-align: center;
+  color: #a9afbb;
+}
+.material-icons.mat-icon{
+  font-size: 15px;
+}
+
+ul li a {
+  display: flex;
+}
+
+.sidebar .nav li.active > a mat-icon {
+  color: #fff;
+}
+.sidebar-title{
+  font-size: large!important;
+  padding-left: inherit;
+}
+.nav-link {
+  margin-top: 0!important;
+}
