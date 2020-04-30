@@ -28,7 +28,7 @@
     "@swimlane/ngx-datatable": "^16.0.2",
     "@types/jquery": "^3.3.31",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "material-dashboard-angular": "github:creativetimofficial/material-dashboard-angular2",
     "ngx-cookie-service": "^2.2.0",
     "ngx-logger": "^4.0.7",
